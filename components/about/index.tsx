@@ -3,7 +3,7 @@ export function About() {
     <div>
       <div className="grid grid-cols-2  gap-x-16 m-6">
         <div className="flex justify-center flex-col w-1/2 ml-auto">
-          <h1 className="text-2xl font-bold">Hello! I'm Lia Panou.</h1>
+          <h1 className="text-2xl font-bold">Hello! I am Lia Panou.</h1>
           <p className="py-4 ">
             I am passionate about UI/UX design and Web Design. I am a skilled
             front-end developer.I am a quick learner and a team worker that gets
@@ -17,7 +17,8 @@ export function About() {
             Email:<span className="font-bold ml-6">liapanou7@gmail.com</span>
           </div>
           <div>
-            Phone:<span className="font-bold ml-6 ">2102528058</span>
+            Phone:
+            <span className="font-bold ml-6 ">2102528058 , 6980675483</span>
           </div>
           <div>
             Address:<span className="font-bold ml-6">Nea Ionia,Athens</span>

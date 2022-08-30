@@ -6,7 +6,7 @@ export function Hero() {
 
         <div className="flex justify-center items-center flex-col">
           <div className="text-xl">HELLO!</div>
-          <h1 className="font-bold text-4xl">I'm Lia Panou</h1>
+          <h1 className="font-bold text-4xl">I am Lia Panou</h1>
           <div className="text-xl">
             Web Developer & Mobile Application Developer
           </div>
