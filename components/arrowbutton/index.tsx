@@ -7,14 +7,14 @@ export function ArrowButton() {
       <button
         onClick={goToTop}
         type="button"
-        className="text-white bg-orange-600 hover:bg-orange-700  font-medium rounded-full text-sm p-2.5 text-center flex m-6 fixed bottom-6 right-0"
+        className="text-white bg-orange-600 hover:bg-orange-700 -rotate-90  font-medium rounded-full text-sm p-2.5 text-center flex m-6 fixed bottom-6 right-0"
       >
         <svg
           aria-hidden="true"
           className="w-4 h-4"
           fill="currentColor"
           viewBox="0 0 20 20"
-          xmlns="http://www.w3.org/2000/svg"
+          xmlns=""
         >
           <path
             fillRule="evenodd"

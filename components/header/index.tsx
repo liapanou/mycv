@@ -3,7 +3,7 @@ import Link from "next/link";
 export function Header() {
   return (
     <div className="flex border-b px-4 py-6 sticky top-0 bg-white b">
-      <h1 className="font-bold  text-2xl">Lia Panou</h1>
+      <h1 className="font-bold  text-2xl">Liafolio</h1>
       <Link href="#about">
         <a className="ml-auto">About</a>
       </Link>

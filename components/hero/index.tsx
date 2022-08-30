@@ -23,9 +23,9 @@ export function Hero() {
           </div>
 
           <div>
-            <button className="btn mt-2 bg-orange-500">
+            <a href="#contact" className="btn mt-2 bg-orange-500">
               Get In Touch <span className="text-2xl font-bold">→</span>
-            </button>
+            </a>
           </div>
         </div>
       </div>
