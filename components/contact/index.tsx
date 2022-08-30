@@ -55,23 +55,22 @@ export function Contact() {
             <h1 className="font-bold text-lg text-gray-800">
               Lets talk how I can help you!
             </h1>
-            <p className="text-gray-700">
+            <br />
+            <p className="text-gray-700 text-left">
               If you like my work and want to avail my services then drop me a
-              message using the contact form. Or get in touch using my email or
-              my contact number. See you!
+              <br />
+              message using the contact form. <br /> <br />
+              Or get in touch using my email or my contact number. See you!
             </p>
             <div className="py-4">
               <div className="flex justify-start">
                 Email:
-                <div className="font-bold text-gray-700 ml-2">
+                <a
+                  href="mailto:liapanou7@gmail.com"
+                  className="font-bold text-gray-700 ml-2"
+                >
                   liapanou7@gmail.com
-                </div>
-              </div>
-              <div className="flex justify-start">
-                Phone:
-                <div className="font-bold ml-2  text-gray-700">
-                  2102528058 , 6980675483
-                </div>
+                </a>
               </div>
             </div>
           </div>

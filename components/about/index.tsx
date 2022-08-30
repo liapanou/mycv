@@ -1,4 +1,7 @@
+import { useState } from "react";
+
 export function About() {
+  const d = new Date().getFullYear();
   return (
     <div>
       <div className="grid grid-cols-2  gap-x-16 m-6">
@@ -11,7 +14,7 @@ export function About() {
             quickly maximize timely deliverables for real-time schemas.
           </p>
           <div>
-            Age: <span className="font-bold ml-6"></span>
+            Age: <span className="font-bold ml-6">{d - 1997}</span>
           </div>
           <div>
             Email:<span className="font-bold ml-6">liapanou7@gmail.com</span>

@@ -5,23 +5,35 @@ import { Services } from "../components/services";
 import styles from "../styles/Home.module.css";
 import { Skills } from "../components/skills";
 import { Contact } from "../components/contact";
+import { Footer } from "../components/footer";
+import { ArrowButton } from "../components/arrowbutton";
 
 export default function Home() {
   return (
     <div>
       <Header />
-      <br />
-      <main className="container mx-auto">
+
+      <main className="container m-8 mx-auto">
         <Hero />
-        <br />
+        <div id="about" className="my-16">
+          <br />
+        </div>
         <About />
-        <br />
+        <div id="services" className="my-16">
+          <br />
+        </div>
         <Services />
-        <br />
+        <div id="skills" className="my-16">
+          <br />
+        </div>
         <Skills />
-        <br />
+        <div id="contact" className="my-16">
+          <br />
+        </div>
         <Contact />
       </main>
+      <Footer />
+      <ArrowButton />
     </div>
   );
 }

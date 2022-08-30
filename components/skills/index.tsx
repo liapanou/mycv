@@ -10,11 +10,11 @@ export function Skills() {
       </div>
       <br />
       <br />
-      <div className="flex justify-center  items-center flex-col ">
+      <div className="flex justify-center  items-center flex-col">
         <div>
           <div>HTML5</div>
           <div className="flex">
-            <progress max="100" value="80" className="range m-4 w-80" />
+            <progress max="100" value="80" className="range  m-4 w-80" />
             <span>80%</span>
           </div>
         </div>
